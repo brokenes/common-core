@@ -92,10 +92,8 @@
     <sharding.jdbc.spring.namespace.version>4.1.1</sharding.jdbc.spring.namespace.version>
     <shardingsphere.jdbc.core.spring.boot.starter.version>5.2.1</shardingsphere.jdbc.core.spring.boot.starter.version>
     <starkbank.ecdsa.version>1.0.2</starkbank.ecdsa.version>
-    <bitcoinj.core.verion>0.16.2</bitcoinj.core.verion>
     <springdoc.openapi.security.version>1.7.0</springdoc.openapi.security.version>
     <springdoc.openapi.ui.version>1.7.0</springdoc.openapi.ui.version>
-    <org.web3j.version>3.6.0</org.web3j.version>
     <dozer.core.version>6.5.2</dozer.core.version>
     <heaven.version>0.1.18</heaven.version>
     <objenesis.version>2.1</objenesis.version>
@@ -544,16 +542,6 @@
         <groupId>com.starkbank.ellipticcurve</groupId>
         <artifactId>starkbank-ecdsa</artifactId>
         <version>${starkbank.ecdsa.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.bitcoinj</groupId>
-        <artifactId>bitcoinj-core</artifactId>
-        <version>${bitcoinj.core.verion}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.web3j</groupId>
-        <artifactId>core</artifactId>
-        <version>${org.web3j.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springdoc</groupId>
